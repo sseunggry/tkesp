@@ -12,8 +12,6 @@ $(function(){
     function checkScroll() {
         const floating = $('.floating-btn');
 
-        console.log($(document).height(), $(window).height())
-
         if ($(document).height() > $(window).height()) {
             floating.addClass('scroll');
         } else {
