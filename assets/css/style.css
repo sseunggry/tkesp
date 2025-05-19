@@ -1354,7 +1354,7 @@ img {
   }
   .contents {
     padding: 9.72vw 0 5.56vw;
-    min-height: calc(100vh - 59.44vw);
+    min-height: calc(100vh - 60.83vw);
   }
   .section:last-of-type {
     margin-bottom: 8.33vw;
@@ -1396,7 +1396,7 @@ img {
     height: 4.17vw;
   }
   .floating-btn {
-    bottom: 18.06vw;
+    bottom: 27.06vw;
     padding: 0 5.56vw;
   }
   .floating-btn.scroll {
@@ -1488,10 +1488,5 @@ img {
     right: 4.17vw;
     width: 4.17vw;
     height: 4.17vw;
-  }
-}
-@media (max-width: 500px) {
-  .wrap .floating-btn .tooltip {
-    display: none;
   }
 }
