@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@import "import/lib-fonts";
+@import "base";
+@import "import/typography";
+@import "import/reset-css";
+
+/* blind */
+.blind {
+    display: none;
+    overflow: hidden;
+    border: 0;
+    position: relative;
+    z-index: -1;
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+}
+
+img {width: 100%;}
+
+.al-c{text-align: center !important;}
+.al-l{text-align: left !important;}
+.al-r{text-align: right !important;}
+
+.line_01{overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+
+.pc_only{display: block;}
+.mo_only{display: none;}
+
+.c-red{color: #ff0000 !important;}
+
+.flex-end{@include flex('', 'flex-end !important');}
+.flex-center{@include flex('', 'center !important');}
+.flex-start{@include flex('', 'flex-start !important');}
+
+.bold{font-weight: 700 !important;}
+
+/* space */
+$position: (t:top, b:bottom, r:right, l: left);
+$total: 10;
+
+@each $abbr, $pos in $position {
+  @for $i from 0 to $total {
+    .m#{$abbr}-#{$i} {margin-#{$pos}: $i*10px !important;}
+    .p#{$abbr}-#{$i} {padding-#{$pos}: $i*10px !important;}
+  }
+}
+
+@media all and (max-width:750px){
+  .pc_only{display: none;}
+  .mo_only{display: block;}
+
+    /* space */
+    $position: (t:top, b:bottom, r:right, l: left);
+    $total: 10;
+
+    @each $abbr, $pos in $position {
+      @for $i from 0 to $total {
+          .m#{$abbr}-#{$i} {margin-#{$pos}: $i*1.39vw !important;}
+          .p#{$abbr}-#{$i} {padding-#{$pos}: $i*1.39vw !important;}
+      }
+    }
+}
+
+// @media (max-width: 1440px) {
+// }
+
+// @media (max-width: 1280px) {
+// }
+
+// @media (max-width: 980px) {
+// }
+
+// @media (max-width: 720px) {
+// }
+

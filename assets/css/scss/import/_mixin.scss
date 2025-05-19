@@ -1,0 +1,30 @@
+@mixin bg($url, $pos: center, $size: 100% auto, $color: null){
+    background: $color url('../img/#{$url}') no-repeat $pos / $size;
+}
+
+@mixin font($name, $style, $size, $weight, $color){
+    font-family: $name;
+    font-size: $size+'px';
+    font-weight: $weight;
+    color: $color;
+}
+
+@mixin blind {
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    border: 0;
+    z-index: -1;
+}
+
+@mixin flex($justify: null, $align: center){
+    display: flex;
+    align-items: unquote($align);
+    @if($justify){
+        justify-content: unquote($justify);
+    }
+}

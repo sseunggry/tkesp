@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover" />
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+
+    <meta http-equiv="subject" content="" />
+    <meta http-equiv="title" content="" />
+    <meta http-equiv="author" content="" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <script defer src="../assets/js/jquery-3.4.1.min.js"></script>
+    <script defer src="../assets/js/common.js"></script>
+    <title>팝업</title>
+</head>
+<body>
+    <div class="wrap">
+        <!-- header -->
+        <header class="header">
+            <div class="inner">
+                <h1 class="logo">
+                    <a href="#!"><span class="blind">logo</span></a>
+                </h1>
+                <ul class="nav">
+                    <li class="active"><a href="#!">재고조회</a></li>
+                    <li><a href="#!">입고예정</a></li>
+                    <li><a href="#!">제품문의</a></li>
+                </ul>
+                <div class="util">
+                    <div class="user">
+                        <div class="thumb">
+                            <img src="../assets/img/user_sample.png" alt="">
+                        </div>
+                        <p class="name">b(만도상사_테스트)</p>
+                    </div>
+                    <button type="button" class="btn line white size-s">로그아웃</button>
+                </div>
+            </div>
+        </header>
+        <!-- //header -->
+
+        <!-- contents -->
+        <div class="contents">
+            <section class="section">
+                <div class="inner">
+                    <h2 class="sec-tit">재고조회</h2>
+                    <div class="search-box">
+                        <div class="input">
+                            <input type="text" placeholder="찾으시는 제품의 OE넘버 또는 브랜드 넘버를 입력하세요">
+                        </div>
+                        <button type="button" class="btn bg-primary size-m">조회</button>
+                    </div>
+                    <div class="table">
+                        <table>
+                            <colgroup>
+                                <col style="width: 7.5%;">
+                                <col style="width: 12.5%;">
+                                <col style="width: 12.5%;">
+                                <col style="width: 12.5%;">
+                                <col style="width: 18.75%;">
+                                <col style="width: auto;">
+                                <col style="width: 6.25%;">
+                                <col style="width: 7.5%;">
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th>차종</th>
+                                    <th>모델</th>
+                                    <th>브랜드</th>
+                                    <th>품목코드</th>
+                                    <th>품목명</th>
+                                    <th>공용넘버</th>
+                                    <th>재고여부</th>
+                                    <th>입고예정일</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>VOLVO</td>
+                                    <td>440이후</td>
+                                    <td>GENUNE(순정품)</td>
+                                    <td>24226156</td>
+                                    <td>브레이크패드셋트</td>
+                                    <td>20568711 21352570 21496550 23149532 24226156</td>
+                                    <td>
+                                        <div class="checkbox">
+                                            <input type="checkbox" name="chk1" >
+                                        </div>
+                                    </td>
+                                    <td class="c-red">2025-04-24</td>
+                                </tr>
+                                <tr>
+                                    <td>VOLVO</td>
+                                    <td>440이후</td>
+                                    <td>GENUNE(순정품)</td>
+                                    <td>24226156</td>
+                                    <td>브레이크패드셋트</td>
+                                    <td>20568711 21352570 21496550 23149532 24226156</td>
+                                    <td>
+                                        <div class="checkbox">
+                                            <input type="checkbox" name="chk1" >
+                                        </div>
+                                    </td>
+                                    <td class="c-red">2025-04-24</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <div class="floating-btn">
+                <div class="btn-wrap">
+                    <div class="tooltip">
+                        신속하고 정확한 상담이 필요하시면, <br>
+                        지금 바로 문의하세요!
+                    </div>
+                    <a href="#!" class="btn kakao"><span class="blind">카카오톡 상담</span></a>
+                </div>
+            </div>
+        </div>
+        <!-- //contents -->
+
+        <!-- footer -->
+        <footer class="footer">
+            <div class="inner">
+                <ul class="call">
+                   <li>Tel. 02-2135-9481</li>
+                   <li>Fax. 02-2135-9487</li>
+                </ul>
+                <p class="copyright">Copyright © 2025 TKESP. All right reserved.</p>
+            </div>
+        </footer>
+        <!-- //footer -->
+
+        <!-- modal -->
+        <div class="modal alert open" id="modal">
+            <div class="dimd"></div>
+            <div class="modal-content">
+                <div class="txt-wrap">
+                    <div class="logo">
+                        <img src="../assets/img/logo.png" alt="">
+                    </div>
+                    <p class="tit"><strong>신규 입고 예정 품목</strong>이 <br> 업데이트 되었습니다!</p>
+                    <p class="desc">원하시는 제품을 지금 바로 검색해보세요.</p>
+                </div>
+                <div class="btn-wrap">
+                    <button type="button" class="btn line size-m">오늘 하루 보지 않기</button>
+                    <button type="button" class="btn bg-primary size-m">지금 검색하러 가기</button>
+                </div>
+                <button type="button" class="btn-close"></button>
+            </div>
+        </div>
+        <!-- modal -->
+    </div>
+</body>
+</html>

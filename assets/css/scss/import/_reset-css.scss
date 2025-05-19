@@ -1,0 +1,149 @@
+@charset "UTF-8";
+html * {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	word-wrap: break-word;
+  } 
+  body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, figure, legend, input, textarea, 
+  button, p, blockquote, th, td, form, fieldset, blockquote, iframe {
+	margin: 0;
+	padding: 0;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+	text-size-adjust: none;
+  }
+  article, aside, canvas, details, embed, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+	display: block;
+  } 
+  command, datalist, keygen, mark, meter, progress, rp, rt, ruby, time, wbr {
+	display: inline;
+  }
+  img {
+	vertical-align: top;
+	border: 0;
+  }
+  ul, ol, li {
+	list-style: none;
+  }
+  hr {
+	display: none;
+	border: 0;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	height: 0;
+  }
+  a {
+	color: inherit;
+	cursor: pointer;
+  
+	&:link {
+	  text-decoration: none;
+	}
+	&:hover,
+	&:focus,
+	&:active,
+	&:visited {
+	  text-decoration: none;
+	}
+  }
+  h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+	word-break: keep-all;
+  }
+  em, i, address, cite {
+	font-style: normal;
+	font-weight: normal;
+  }
+  
+  fieldset {
+	border: 0;
+  }
+  legend, caption {
+	display: none;
+	clear: both;
+  }
+  input, textarea, select, button, table{
+	font-size: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	border: 0;
+	background-color: transparent;
+  }
+  
+  button, select{
+	cursor: pointer;
+  }
+  
+  textarea, input, select{
+	-webkit-border-radius: 0;
+	-ms-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	border: 0;
+	outline-color: -moz-use-text-color;
+	outline-style: none;
+	outline-width: medium;
+  }
+  
+  textarea{
+	resize: none;
+	appearance: none;
+  }
+  
+  label{
+	cursor: pointer;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	img{
+	  pointer-events: none;
+	}
+  }
+  
+  table{
+	table-layout: fixed;
+	border-collapse: collapse;
+	border-spacing: 0;
+  }
+  
+  th, td{
+	border-collapse: collapse;
+  }
+  audio, canvas, progress, video {
+	display: inline-block;
+	vertical-align: baseline;
+  }
+  b, strong {
+	font-weight: bold;
+  }
+  mark {
+	background: #ff0;
+	color: inherit;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  }
+  small {
+	font-size: 80%;
+  }
+  sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+  }
+  sup {
+	top: -0.5em;
+  }
+  sub {
+	bottom: -0.25em;
+  }
