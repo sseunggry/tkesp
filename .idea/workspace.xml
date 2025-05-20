@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d01ba266-01b3-459e-9221-d34abee94a99" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2xJoQwQLMGvSta9N2Yjrclyy5NO" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/sseung/Downloads/@PUB/@Alba/tkesp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d01ba266-01b3-459e-9221-d34abee94a99" name="Changes" comment="" />
+      <created>1747665524784</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747665524784</updated>
+      <workItem from="1747665525968" duration="2375000" />
+    </task>
+    <task id="LOCAL-00001" summary="working">
+      <created>1747665778412</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1747665778412</updated>
+    </task>
+    <task id="LOCAL-00002" summary="index 폴더 위치 변경">
+      <created>1747665823997</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1747665823997</updated>
+    </task>
+    <task id="LOCAL-00003" summary="index 링크 수정">
+      <created>1747665948797</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1747665948797</updated>
+    </task>
+    <task id="LOCAL-00004" summary="mob 단위 vw 변경">
+      <created>1747667587789</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747667587789</updated>
+    </task>
+    <task id="LOCAL-00005" summary="소스 수정">
+      <created>1747667755024</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1747667755024</updated>
+    </task>
+    <task id="LOCAL-00006" summary="mob css 수정">
+      <created>1747669891987</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1747669891987</updated>
+    </task>
+    <task id="LOCAL-00007" summary="mob css 수정">
+      <created>1747670400220</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1747670400220</updated>
+    </task>
+    <task id="LOCAL-00008" summary="js 수정">
+      <created>1747670419515</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1747670419515</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="working" />
+    <MESSAGE value="index 폴더 위치 변경" />
+    <MESSAGE value="index 링크 수정" />
+    <MESSAGE value="mob 단위 vw 변경" />
+    <MESSAGE value="소스 수정" />
+    <MESSAGE value="mob css 수정" />
+    <MESSAGE value="js 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="js 수정" />
+  </component>
+</project>

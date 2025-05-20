@@ -1251,6 +1251,10 @@ img {
   height: 20px;
   background: url("../img/ico_close.png") no-repeat center/100% auto;
 }
+.modal.alert .img-wrap {
+  max-width: 510px;
+  width: 100%;
+}
 
 @media (max-width: 1600px) {
   .floating-btn {
@@ -1488,5 +1492,9 @@ img {
     right: 4.17vw;
     width: 4.17vw;
     height: 4.17vw;
+  }
+  .modal.alert .img-wrap {
+    max-width: none;
+    width: 100%;
   }
 }
